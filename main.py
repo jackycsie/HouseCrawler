@@ -349,14 +349,13 @@ def write_db(redis_client, key, value):
     try:
         check_docDB_data = None
         host, port = get_node_for_key(redis_client, key)
-        print(host, port)
         if host and port:
             node_client = connect(host, port, REDIS_SSL_CONNECTION, redis_db_instance)
             # 使用 JSON 格式序列化 value
             node_client.set(key, json.dumps(value))
             # 获取键值，并使用 JSON 解析回原始格式
             stored_value = json.loads(node_client.get(key).decode('utf-8'))
-            print(stored_value)
+            # print(stored_value)
         else:
             # 同样使用 JSON 格式序列化并存储
             redis_client.set(key, json.dumps(value))
@@ -377,19 +376,28 @@ def remove_duplicates(house_numbers):
 
     return unique_numbers
 
+def convert_to_dict(item):
+    # 从列表中提取字符串
+    string = item[0] if isinstance(item, list) else item
+    # 分割键和值
+    key, value = string.split(": ", 1)
+    # 创建并返回字典
+    return {key: value}
+
 def list_to_dict(house_info_list):
     result_dict = {}
     for item in house_info_list:
-        if isinstance(item, list) and len(item) >= 2:
+        if isinstance(item, list) and len(item) == 2:
             # 正常的键值对列表
             result_dict[item[0]] = item[1]
-        elif isinstance(item, str):
-            # 特殊情况的字符串处理
-            key = 'nearly_station'
-            result_dict[key] = item
+        elif isinstance(item, list) and len(item) == 1:
+            # 非标准单项列表，可能是近站信息的情况
+            temp_dict = convert_to_dict(item)
+            result_dict.update(temp_dict)
         else:
             print(f"Error: Unexpected item format in {item}. This item will be ignored.")
     return result_dict
+
 
 if __name__ == "__main__":
     price_min = 800
@@ -407,7 +415,7 @@ if __name__ == "__main__":
 
     for url in urls:
         i = 1
-        while i < 2:
+        while i < 4:
             print("page ", i)
             list_page_html = fetch_html_content(url+"/"+str(i))
             house_nos.extend(extract_house_nos_from_list(list_page_html))
@@ -430,7 +438,7 @@ if __name__ == "__main__":
             house_info_detail.extend(nearest_station_info)
             # print(house_info_detail)
             house_info_dict = list_to_dict(house_info_detail)
-            print(house_info_dict)
+            # print(house_info_dict)
             check_docDB_data = write_db(redis_client, house_no, house_info_dict)
 
         
