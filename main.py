@@ -522,7 +522,7 @@ def send_SNS_mail(new_house_list):
     # 設定當前時間
     formatted_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     sns = boto3.client('sns', region_name='ap-northeast-1')
-    subject = f'{formatted_time} --- 大安租屋爬蟲'
+    subject = f'{formatted_time} --- 信義房屋爬蟲'
     topic_arn = 'arn:aws:sns:ap-northeast-1:237089372480:Rent_591'
 
     # 創建 HTML 郵件內容
@@ -545,7 +545,7 @@ if __name__ == "__main__":
     price_min = 800
     price_max = 3000
     # station_names = ['大安', '信義安和', '南京復興'] 
-    station_names = ['大安'] 
+    station_names = ['古亭'] 
     urls = generate_sinyi_urls(price_min, price_max, station_names)
 
     REDIS_HOST = "clustercfg.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com"
