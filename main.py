@@ -3,8 +3,23 @@ import re
 import redis
 import json
 import pymongo
+import sys
+import os
+import time
+import boto3
+import pytz
+from datetime import datetime
 from bs4 import BeautifulSoup
 from collections import defaultdict
+from dotenv import load_dotenv
+
+# 加载环境变量
+load_dotenv()
+
+# 从环境变量获取凭证
+mongo_user = os.getenv('MONGO_USER')
+mongo_pass = os.getenv('MONGO_PASS')
+
 
 def generate_sinyi_urls(price_min, price_max, station_names):
     # 站點資料，包含站名、路線代號和站號
@@ -398,11 +413,139 @@ def list_to_dict(house_info_list):
             print(f"Error: Unexpected item format in {item}. This item will be ignored.")
     return result_dict
 
+def search_specific_document(key_name, house_info_dict):
+
+    # URI 和集合详情
+    uri = f'mongodb://{mongo_user}:{mongo_pass}@sinyicrawler.cluster-c3f5m2eagzla.ap-northeast-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false'
+    database_name = 'sinyi_buy_house'
+    collection_name = 'sinyi_house_info'
+
+    client = None
+    try:
+        # 建立 MongoDB 连接
+        client = pymongo.MongoClient(uri)
+        db = client[database_name]
+        collection = db[collection_name]
+
+        # 根据指定的 key 获取并打印文档
+        document = collection.find_one({'key': key_name}, {'price': 1, '_id': 0})
+        if document:
+            if document['price'] == house_info_dict['price']:
+                return True
+            else:
+                return False
+        else:
+            return False
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    finally:
+        # 确保 MongoDB 客户端正确关闭
+        if client:
+            client.close()
+
+def get_currect_time():
+
+    tz = pytz.timezone('Asia/Taipei')  # 或 pytz.timezone('Etc/GMT+8')
+    utc_now = datetime.datetime.now(datetime.timezone.utc)
+    local_now = utc_now.astimezone(tz)
+    formatted_time = local_now.strftime("%Y-%m-%d")
+
+    return formatted_time
+
+# def send_SNS_mail(new_house_list):
+
+#     formatted_time = get_currect_time()
+#     # 建立 SNS Client (無需提供憑證)
+#     sns = boto3.client('sns', region_name='ap-northeast-1')
+#     # 設定郵件內容
+#     subject = formatted_time + ' --- 大安租屋爬蟲'
+#     topic_arn = 'arn:aws:sns:ap-northeast-1:237089372480:Rent_591'
+
+#     if new_house_list != "":
+
+#         message = f'這是來自 591 爬蟲的通知郵件。\n\n{new_house_list}'  # 將 new_house_list_str 添加到訊息中
+#         # print(message_with_default)
+
+#         # 發送郵件
+#         response = sns.publish(
+#             TopicArn=topic_arn,
+#             Message=message,
+#             Subject=subject,
+#             MessageStructure='string'  # 確保純文字格式
+#         )
+#         # print(f'Message ID: {response["MessageId"]}')
+
+#     else:
+#         message = f'目前沒有新的資料'
+#         response = sns.publish(
+#             TopicArn=topic_arn,
+#             Message=message,
+#             Subject=subject,
+#             MessageStructure='string'  # 確保純文字格式
+#         )
+
+def create_email_body(house_list):
+    html_content = '<h1>591 租屋更新通知</h1>'
+    if house_list:
+        for house in house_list:
+            url = house[0]
+            details = {}
+            station_info = []
+            if len(house) > 1:
+                # 处理除最近车站外的信息
+                for detail in house[1][:6]:  # 假设前6项是固定的房产信息
+                    if len(detail) == 2:
+                        key, value = detail[0], detail[1]
+                        details[key] = value
+
+            # 将所有车站信息合并成一个字符串
+            stations = house[1][6:]
+            html_content += f'''
+            <div>
+                <h2><a href="{url}">查看详情</a></h2>
+                <ul>
+                    <li>标题: {details.get('buy-content-title-name', 'N/A')}</li>
+                    <li>价格: {details.get('price', 'N/A')}</li>
+                    <li>建筑面积: {details.get('building_area', 'N/A')}</li>
+                    <li>房型: {details.get('layout', 'N/A')}</li>
+                    <li>楼层: {details.get('floor', 'N/A')}</li>
+                    <li>房龄: {details.get('age', 'N/A')}</li>
+                    <li>最近车站: {stations if stations else 'N/A'}</li>
+                </ul>
+            </div>
+            '''
+    else:
+        html_content += '<p>目前没有新的资料。</p>'
+    return html_content
+
+def send_SNS_mail(new_house_list):
+    # 設定當前時間
+    formatted_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    sns = boto3.client('sns', region_name='ap-northeast-1')
+    subject = f'{formatted_time} --- 大安租屋爬蟲'
+    topic_arn = 'arn:aws:sns:ap-northeast-1:237089372480:Rent_591'
+
+    # 創建 HTML 郵件內容
+    html_message = create_email_body(new_house_list)
+
+    try:
+        # 發送郵件
+        response = sns.publish(
+            TopicArn=topic_arn,
+            Message=html_message,
+            Subject=subject,
+            MessageStructure='html'
+        )
+        print(f'Message ID: {response["MessageId"]}')
+    except Exception as e:
+        print(f'Failed to send message: {str(e)}')
+
 
 if __name__ == "__main__":
     price_min = 800
     price_max = 3000
-    station_names = ['大安', '信義安和', '南京復興'] 
+    # station_names = ['大安', '信義安和', '南京復興'] 
+    station_names = ['大安'] 
     urls = generate_sinyi_urls(price_min, price_max, station_names)
 
     REDIS_HOST = "clustercfg.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com"
@@ -415,12 +558,15 @@ if __name__ == "__main__":
 
     for url in urls:
         i = 1
-        while i < 4:
+        while i < 2:
             print("page ", i)
             list_page_html = fetch_html_content(url+"/"+str(i))
             house_nos.extend(extract_house_nos_from_list(list_page_html))
             i = i+1 
     unique_house_nos = remove_duplicates(house_nos)
+
+    Send_SNS_queue = []
+
 
     for house_no in unique_house_nos:
         house_url = f"https://www.sinyi.com.tw/buy/house/{house_no}"
@@ -440,5 +586,10 @@ if __name__ == "__main__":
             house_info_dict = list_to_dict(house_info_detail)
             # print(house_info_dict)
             check_docDB_data = write_db(redis_client, house_no, house_info_dict)
+            if search_specific_document(house_no, house_info_dict) == False:
+                Send_SNS_queue.append([house_url, house_info_detail])
+        print(len(Send_SNS_queue))
+
+    send_SNS_mail(Send_SNS_queue)
 
         
