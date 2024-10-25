@@ -25,8 +25,9 @@ REDIS_SSL_CONNECTION = os.getenv('REDIS_SSL_CONNECTION', 'True') == 'True'
 REDIS_DB_INSTANCE = int(os.getenv('REDIS_DB_INSTANCE', 0))
 
 # AWS SNS 設置
-AWS_REGION = os.getenv('AWS_REGION', 'ap-northeast-1')
-SNS_TOPIC_ARN = os.getenv('SNS_TOPIC_ARN', 'arn:aws:sns:ap-northeast-1:237089372480:Rent_591')
+# AWS SNS 設置
+AWS_REGION = os.getenv('AWS_REGION')
+SNS_TOPIC_ARN = os.getenv('SNS_TOPIC_ARN')
 
 # 日誌配置
 LOG_FILE = os.getenv('LOG_FILE', 'logs/application.log')

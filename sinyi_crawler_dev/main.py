@@ -16,7 +16,7 @@ def main():
     try:
         price_min = 800
         price_max = 3000
-        station_names = ['輔大']  # 您可以根據需要修改站點名稱
+        station_names = ['南京復興, 大坪林']  # 您可以根據需要修改站點名稱
 
         crawler = CrawlerController(price_min, price_max, station_names, logger=logger)
         crawler.run()
