@@ -1,0 +1,5 @@
+beautifulsoup4
+boto3
+dotenv
+pymongo
+redis
