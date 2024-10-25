@@ -1,0 +1,1155 @@
+2024-10-25 01:07:23,229 INFO main_logger: 應用程序啟動
+2024-10-25 01:07:23,229 INFO main_logger: 應用程序啟動
+2024-10-25 01:07:23,293 INFO main_logger: Redis 連線成功！
+2024-10-25 01:07:23,293 INFO main_logger: Redis 連線成功！
+2024-10-25 01:07:23,294 CRITICAL main_logger: 應用程序發生致命錯誤: [Errno 2] No such file or directory: 'global-bundle.pem'
+2024-10-25 01:07:23,294 CRITICAL main_logger: 應用程序發生致命錯誤: [Errno 2] No such file or directory: 'global-bundle.pem'
+2024-10-25 01:07:23,295 INFO main_logger: 應用程序結束
+2024-10-25 01:07:23,295 INFO main_logger: 應用程序結束
+2024-10-25 01:10:38,079 INFO main_logger: 應用程序啟動
+2024-10-25 01:10:38,079 INFO main_logger: 應用程序啟動
+2024-10-25 01:10:38,136 INFO main_logger: Redis 連線成功！
+2024-10-25 01:10:38,136 INFO main_logger: Redis 連線成功！
+2024-10-25 01:10:38,196 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:10:38,196 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:10:38,292 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:10:38,292 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:10:38,293 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:10:38,293 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:10:38,293 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:10:38,293 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:10:40,417 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:10:40,417 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:10:41,258 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:10:41,258 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:10:42,042 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:10:42,042 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:10:42,792 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:10:42,792 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:10:42,797 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:42,797 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:42,820 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818641, 1)}
+2024-10-25 01:10:42,820 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818641, 1)}
+2024-10-25 01:10:42,820 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:10:42,820 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:10:43,737 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:10:43,737 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:10:44,570 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:10:44,570 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:10:45,332 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:10:45,332 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:10:45,348 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818645, 1)}
+2024-10-25 01:10:45,348 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818645, 1)}
+2024-10-25 01:10:45,348 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:10:45,348 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:10:46,134 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:10:46,134 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:10:46,970 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:10:46,970 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:10:46,974 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:46,974 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:47,239 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818647, 1)}
+2024-10-25 01:10:47,239 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818647, 1)}
+2024-10-25 01:10:47,239 INFO main_logger: 房屋編號 1809RG 新增到 SNS 隊列
+2024-10-25 01:10:47,239 INFO main_logger: 房屋編號 1809RG 新增到 SNS 隊列
+2024-10-25 01:10:48,052 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:10:48,052 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:10:48,056 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:48,056 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:48,083 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818647, 1)}
+2024-10-25 01:10:48,083 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818647, 1)}
+2024-10-25 01:10:48,083 INFO main_logger: 房屋編號 9897SJ 新增到 SNS 隊列
+2024-10-25 01:10:48,083 INFO main_logger: 房屋編號 9897SJ 新增到 SNS 隊列
+2024-10-25 01:10:48,887 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:10:48,887 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:10:49,870 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:10:49,870 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:10:49,876 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:49,876 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:50,248 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818650, 1)}
+2024-10-25 01:10:50,248 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818650, 1)}
+2024-10-25 01:10:50,248 INFO main_logger: 房屋編號 5252YT 新增到 SNS 隊列
+2024-10-25 01:10:50,248 INFO main_logger: 房屋編號 5252YT 新增到 SNS 隊列
+2024-10-25 01:10:51,030 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:10:51,030 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:10:51,035 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:51,035 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:51,056 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818649, 1)}
+2024-10-25 01:10:51,056 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818649, 1)}
+2024-10-25 01:10:51,056 INFO main_logger: 房屋編號 7360DQ 新增到 SNS 隊列
+2024-10-25 01:10:51,056 INFO main_logger: 房屋編號 7360DQ 新增到 SNS 隊列
+2024-10-25 01:10:51,723 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:10:51,723 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:10:51,727 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:51,727 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:51,756 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818651, 1)}
+2024-10-25 01:10:51,756 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818651, 1)}
+2024-10-25 01:10:51,756 INFO main_logger: 房屋編號 4040DV 新增到 SNS 隊列
+2024-10-25 01:10:51,756 INFO main_logger: 房屋編號 4040DV 新增到 SNS 隊列
+2024-10-25 01:10:52,522 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:10:52,522 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:10:52,525 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:52,525 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:52,544 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818651, 1)}
+2024-10-25 01:10:52,544 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818651, 1)}
+2024-10-25 01:10:52,544 INFO main_logger: 房屋編號 0016TU 新增到 SNS 隊列
+2024-10-25 01:10:52,544 INFO main_logger: 房屋編號 0016TU 新增到 SNS 隊列
+2024-10-25 01:10:53,275 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:10:53,275 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:10:53,284 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:53,284 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:10:53,763 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818653, 1)}
+2024-10-25 01:10:53,763 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818653, 1)}
+2024-10-25 01:10:53,764 INFO main_logger: 房屋編號 1442MN 新增到 SNS 隊列
+2024-10-25 01:10:53,764 INFO main_logger: 房屋編號 1442MN 新增到 SNS 隊列
+2024-10-25 01:10:54,534 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:10:54,534 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:10:55,350 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:10:55,350 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:10:56,090 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:10:56,090 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:10:57,153 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:10:57,153 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:10:57,183 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818655, 1)}
+2024-10-25 01:10:57,183 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818655, 1)}
+2024-10-25 01:10:57,183 INFO main_logger: 房屋編號 0463CC 新增到 SNS 隊列
+2024-10-25 01:10:57,183 INFO main_logger: 房屋編號 0463CC 新增到 SNS 隊列
+2024-10-25 01:10:58,087 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:10:58,087 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:10:58,887 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:10:58,887 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:10:59,662 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:10:59,662 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:11:00,354 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:11:00,354 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:11:01,167 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:11:01,167 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:11:01,917 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:11:01,917 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:11:02,683 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:11:02,683 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:11:03,619 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:11:03,619 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:11:04,334 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:11:04,334 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:11:05,167 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:11:05,167 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:11:05,922 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:11:05,922 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:11:06,634 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:11:06,634 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:11:07,448 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:11:07,448 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:11:08,101 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:11:08,101 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:11:08,997 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:11:08,997 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:11:09,670 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:11:09,670 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:11:10,431 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:11:10,431 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:11:11,102 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:11:11,102 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:11:12,016 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:11:12,016 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:11:12,806 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:11:12,806 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:11:13,771 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:11:13,771 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:11:14,800 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:11:14,800 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:11:15,469 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:11:15,469 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:11:16,339 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:11:16,339 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:11:17,199 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:11:17,199 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:11:17,331 INFO main_logger: 郵件發送成功，Message ID: 18c7df33-b8ba-5493-9850-80a74acfab45
+2024-10-25 01:11:17,331 INFO main_logger: 郵件發送成功，Message ID: 18c7df33-b8ba-5493-9850-80a74acfab45
+2024-10-25 01:11:17,331 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:11:17,331 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:11:17,331 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:11:17,331 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:11:17,332 INFO main_logger: 應用程序結束
+2024-10-25 01:11:17,332 INFO main_logger: 應用程序結束
+2024-10-25 01:12:39,399 INFO main_logger: 應用程序啟動
+2024-10-25 01:12:39,399 INFO main_logger: 應用程序啟動
+2024-10-25 01:12:39,460 INFO main_logger: Redis 連線成功！
+2024-10-25 01:12:39,460 INFO main_logger: Redis 連線成功！
+2024-10-25 01:12:39,510 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:12:39,510 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:12:39,591 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:12:39,591 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:12:39,591 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:12:39,591 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:12:39,591 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:12:39,591 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:12:41,109 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:12:41,109 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:12:41,870 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:12:41,870 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:12:43,160 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:12:43,160 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:12:43,980 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:12:43,980 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:12:43,985 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:43,985 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:44,006 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818763, 1)}
+2024-10-25 01:12:44,006 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818763, 1)}
+2024-10-25 01:12:44,006 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:12:44,006 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:12:44,642 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:12:44,642 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:12:45,301 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:12:45,301 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:12:46,285 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:12:46,285 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:12:46,299 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818766, 1)}
+2024-10-25 01:12:46,299 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818766, 1)}
+2024-10-25 01:12:46,299 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:12:46,299 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:12:47,313 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:12:47,313 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:12:48,453 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:12:48,453 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:12:48,457 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:48,457 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:48,575 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818768, 1)}
+2024-10-25 01:12:48,575 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818768, 1)}
+2024-10-25 01:12:48,575 INFO main_logger: 房屋編號 1809RG 新增到 SNS 隊列
+2024-10-25 01:12:48,575 INFO main_logger: 房屋編號 1809RG 新增到 SNS 隊列
+2024-10-25 01:12:49,453 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:12:49,453 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:12:49,457 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:49,457 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:49,492 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818767, 1)}
+2024-10-25 01:12:49,492 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818767, 1)}
+2024-10-25 01:12:49,492 INFO main_logger: 房屋編號 9897SJ 新增到 SNS 隊列
+2024-10-25 01:12:49,492 INFO main_logger: 房屋編號 9897SJ 新增到 SNS 隊列
+2024-10-25 01:12:50,270 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:12:50,270 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:12:51,028 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:12:51,028 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:12:51,032 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:51,032 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:51,077 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818771, 1)}
+2024-10-25 01:12:51,077 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818771, 1)}
+2024-10-25 01:12:51,077 INFO main_logger: 房屋編號 5252YT 新增到 SNS 隊列
+2024-10-25 01:12:51,077 INFO main_logger: 房屋編號 5252YT 新增到 SNS 隊列
+2024-10-25 01:12:52,141 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:12:52,141 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:12:52,144 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:52,144 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:52,162 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818771, 1)}
+2024-10-25 01:12:52,162 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818771, 1)}
+2024-10-25 01:12:52,162 INFO main_logger: 房屋編號 7360DQ 新增到 SNS 隊列
+2024-10-25 01:12:52,162 INFO main_logger: 房屋編號 7360DQ 新增到 SNS 隊列
+2024-10-25 01:12:52,815 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:12:52,815 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:12:52,818 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:52,818 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:53,081 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818773, 1)}
+2024-10-25 01:12:53,081 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818773, 1)}
+2024-10-25 01:12:53,081 INFO main_logger: 房屋編號 4040DV 新增到 SNS 隊列
+2024-10-25 01:12:53,081 INFO main_logger: 房屋編號 4040DV 新增到 SNS 隊列
+2024-10-25 01:12:55,374 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:12:55,374 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:12:55,377 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:55,377 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:55,399 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818773, 1)}
+2024-10-25 01:12:55,399 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818773, 1)}
+2024-10-25 01:12:55,400 INFO main_logger: 房屋編號 0016TU 新增到 SNS 隊列
+2024-10-25 01:12:55,400 INFO main_logger: 房屋編號 0016TU 新增到 SNS 隊列
+2024-10-25 01:12:58,571 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:12:58,571 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:12:58,574 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:58,574 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:12:58,608 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818777, 1)}
+2024-10-25 01:12:58,608 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818777, 1)}
+2024-10-25 01:12:58,609 INFO main_logger: 房屋編號 1442MN 新增到 SNS 隊列
+2024-10-25 01:12:58,609 INFO main_logger: 房屋編號 1442MN 新增到 SNS 隊列
+2024-10-25 01:13:00,759 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:13:00,759 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:13:01,765 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:13:01,765 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:13:02,538 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:13:02,538 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:13:03,920 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:13:03,920 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:13:03,951 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818783, 1)}
+2024-10-25 01:13:03,951 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729818783, 1)}
+2024-10-25 01:13:03,951 INFO main_logger: 房屋編號 0463CC 新增到 SNS 隊列
+2024-10-25 01:13:03,951 INFO main_logger: 房屋編號 0463CC 新增到 SNS 隊列
+2024-10-25 01:13:04,917 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:13:04,917 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:13:05,622 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:13:05,622 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:13:06,550 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:13:06,550 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:13:07,395 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:13:07,395 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:13:08,513 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:13:08,513 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:13:09,823 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:13:09,823 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:13:10,509 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:13:10,509 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:13:11,298 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:13:11,298 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:13:12,107 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:13:12,107 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:13:12,790 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:13:12,790 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:13:13,511 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:13:13,511 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:13:14,176 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:13:14,176 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:13:14,957 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:13:14,957 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:13:15,883 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:13:15,883 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:13:16,944 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:13:16,944 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:13:17,671 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:13:17,671 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:13:18,441 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:13:18,441 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:13:19,332 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:13:19,332 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:13:20,260 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:13:20,260 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:13:21,196 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:13:21,196 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:13:22,219 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:13:22,219 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:13:23,144 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:13:23,144 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:13:23,928 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:13:23,928 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:13:24,839 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:13:24,839 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:13:25,537 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:13:25,537 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:13:25,653 INFO main_logger: 郵件發送成功，Message ID: 48f281f8-37bb-59f7-a3d0-de6cc54ed5c6
+2024-10-25 01:13:25,653 INFO main_logger: 郵件發送成功，Message ID: 48f281f8-37bb-59f7-a3d0-de6cc54ed5c6
+2024-10-25 01:13:25,653 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:13:25,653 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:13:25,653 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:13:25,653 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:13:25,654 INFO main_logger: 應用程序結束
+2024-10-25 01:13:25,654 INFO main_logger: 應用程序結束
+2024-10-25 01:20:16,059 INFO main_logger: 應用程序啟動
+2024-10-25 01:20:16,059 INFO main_logger: 應用程序啟動
+2024-10-25 01:20:16,134 INFO main_logger: Redis 連線成功！
+2024-10-25 01:20:16,134 INFO main_logger: Redis 連線成功！
+2024-10-25 01:20:16,183 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:20:16,183 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:20:16,266 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:20:16,266 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:20:16,266 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:20:16,266 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:20:16,266 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:20:16,266 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:20:18,288 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:20:18,288 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:20:19,151 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:20:19,151 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:20:20,250 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:20:20,250 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:20:21,097 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:20:21,097 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:20:21,101 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:21,101 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:21,120 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819219, 1)}
+2024-10-25 01:20:21,120 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819219, 1)}
+2024-10-25 01:20:21,120 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:20:21,120 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:20:21,129 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819221, 1)}
+2024-10-25 01:20:21,129 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819221, 1)}
+2024-10-25 01:20:21,129 INFO main_logger: 插入新房屋編號 1543PZ 至 DocumentDB
+2024-10-25 01:20:21,129 INFO main_logger: 插入新房屋編號 1543PZ 至 DocumentDB
+2024-10-25 01:20:21,851 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:20:21,851 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:20:22,538 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:20:22,538 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:20:23,512 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:20:23,512 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:20:23,760 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819223, 1)}
+2024-10-25 01:20:23,760 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819223, 1)}
+2024-10-25 01:20:23,760 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:20:23,760 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:20:24,259 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819224, 1)}
+2024-10-25 01:20:24,259 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819224, 1)}
+2024-10-25 01:20:24,260 INFO main_logger: 插入新房屋編號 5084TH 至 DocumentDB
+2024-10-25 01:20:24,260 INFO main_logger: 插入新房屋編號 5084TH 至 DocumentDB
+2024-10-25 01:20:25,147 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:20:25,147 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:20:25,888 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:20:25,888 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:20:25,892 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:25,892 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:25,914 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819224, 1)}
+2024-10-25 01:20:25,914 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819224, 1)}
+2024-10-25 01:20:25,915 INFO main_logger: 房屋編號 1809RG 新增到 SNS 隊列
+2024-10-25 01:20:25,915 INFO main_logger: 房屋編號 1809RG 新增到 SNS 隊列
+2024-10-25 01:20:26,259 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819226, 1)}
+2024-10-25 01:20:26,259 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819226, 1)}
+2024-10-25 01:20:26,259 INFO main_logger: 插入新房屋編號 1809RG 至 DocumentDB
+2024-10-25 01:20:26,259 INFO main_logger: 插入新房屋編號 1809RG 至 DocumentDB
+2024-10-25 01:20:27,082 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:20:27,082 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:20:27,086 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:27,086 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:27,123 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819225, 1)}
+2024-10-25 01:20:27,123 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819225, 1)}
+2024-10-25 01:20:27,123 INFO main_logger: 房屋編號 9897SJ 新增到 SNS 隊列
+2024-10-25 01:20:27,123 INFO main_logger: 房屋編號 9897SJ 新增到 SNS 隊列
+2024-10-25 01:20:27,266 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819227, 1)}
+2024-10-25 01:20:27,266 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819227, 1)}
+2024-10-25 01:20:27,267 INFO main_logger: 插入新房屋編號 9897SJ 至 DocumentDB
+2024-10-25 01:20:27,267 INFO main_logger: 插入新房屋編號 9897SJ 至 DocumentDB
+2024-10-25 01:20:28,727 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:20:28,727 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:20:29,477 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:20:29,477 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:20:29,480 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:29,480 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:29,502 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819228, 1)}
+2024-10-25 01:20:29,502 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819228, 1)}
+2024-10-25 01:20:29,502 INFO main_logger: 房屋編號 5252YT 新增到 SNS 隊列
+2024-10-25 01:20:29,502 INFO main_logger: 房屋編號 5252YT 新增到 SNS 隊列
+2024-10-25 01:20:29,766 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819229, 1)}
+2024-10-25 01:20:29,766 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819229, 1)}
+2024-10-25 01:20:29,767 INFO main_logger: 插入新房屋編號 5252YT 至 DocumentDB
+2024-10-25 01:20:29,767 INFO main_logger: 插入新房屋編號 5252YT 至 DocumentDB
+2024-10-25 01:20:30,444 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:20:30,444 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:20:30,451 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:30,451 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:30,475 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819229, 1)}
+2024-10-25 01:20:30,475 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819229, 1)}
+2024-10-25 01:20:30,476 INFO main_logger: 房屋編號 7360DQ 新增到 SNS 隊列
+2024-10-25 01:20:30,476 INFO main_logger: 房屋編號 7360DQ 新增到 SNS 隊列
+2024-10-25 01:20:30,769 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819230, 1)}
+2024-10-25 01:20:30,769 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819230, 1)}
+2024-10-25 01:20:30,769 INFO main_logger: 插入新房屋編號 7360DQ 至 DocumentDB
+2024-10-25 01:20:30,769 INFO main_logger: 插入新房屋編號 7360DQ 至 DocumentDB
+2024-10-25 01:20:31,579 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:20:31,579 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:20:31,583 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:31,583 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:31,608 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819230, 1)}
+2024-10-25 01:20:31,608 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819230, 1)}
+2024-10-25 01:20:31,608 INFO main_logger: 房屋編號 4040DV 新增到 SNS 隊列
+2024-10-25 01:20:31,608 INFO main_logger: 房屋編號 4040DV 新增到 SNS 隊列
+2024-10-25 01:20:31,769 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819231, 1)}
+2024-10-25 01:20:31,769 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819231, 1)}
+2024-10-25 01:20:31,769 INFO main_logger: 插入新房屋編號 4040DV 至 DocumentDB
+2024-10-25 01:20:31,769 INFO main_logger: 插入新房屋編號 4040DV 至 DocumentDB
+2024-10-25 01:20:32,705 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:20:32,705 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:20:32,711 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:32,711 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:32,744 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819231, 1)}
+2024-10-25 01:20:32,744 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819231, 1)}
+2024-10-25 01:20:32,744 INFO main_logger: 房屋編號 0016TU 新增到 SNS 隊列
+2024-10-25 01:20:32,744 INFO main_logger: 房屋編號 0016TU 新增到 SNS 隊列
+2024-10-25 01:20:32,772 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819232, 1)}
+2024-10-25 01:20:32,772 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819232, 1)}
+2024-10-25 01:20:32,773 INFO main_logger: 插入新房屋編號 0016TU 至 DocumentDB
+2024-10-25 01:20:32,773 INFO main_logger: 插入新房屋編號 0016TU 至 DocumentDB
+2024-10-25 01:20:33,473 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:20:33,473 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:20:33,480 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:33,480 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:20:33,533 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819232, 1)}
+2024-10-25 01:20:33,533 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819232, 1)}
+2024-10-25 01:20:33,533 INFO main_logger: 房屋編號 1442MN 新增到 SNS 隊列
+2024-10-25 01:20:33,533 INFO main_logger: 房屋編號 1442MN 新增到 SNS 隊列
+2024-10-25 01:20:33,786 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819233, 1)}
+2024-10-25 01:20:33,786 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819233, 1)}
+2024-10-25 01:20:33,786 INFO main_logger: 插入新房屋編號 1442MN 至 DocumentDB
+2024-10-25 01:20:33,786 INFO main_logger: 插入新房屋編號 1442MN 至 DocumentDB
+2024-10-25 01:20:34,462 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:20:34,462 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:20:35,278 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:20:35,278 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:20:35,939 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:20:35,939 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:20:36,859 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:20:36,859 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:20:36,882 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819235, 1)}
+2024-10-25 01:20:36,882 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819235, 1)}
+2024-10-25 01:20:36,882 INFO main_logger: 房屋編號 0463CC 新增到 SNS 隊列
+2024-10-25 01:20:36,882 INFO main_logger: 房屋編號 0463CC 新增到 SNS 隊列
+2024-10-25 01:20:37,285 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819237, 1)}
+2024-10-25 01:20:37,285 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819237, 1)}
+2024-10-25 01:20:37,286 INFO main_logger: 插入新房屋編號 0463CC 至 DocumentDB
+2024-10-25 01:20:37,286 INFO main_logger: 插入新房屋編號 0463CC 至 DocumentDB
+2024-10-25 01:20:38,263 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:20:38,263 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:20:38,925 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:20:38,925 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:20:39,731 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:20:39,731 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:20:40,442 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:20:40,442 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:20:41,317 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:20:41,317 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:20:41,973 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:20:41,973 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:20:42,860 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:20:42,860 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:20:43,720 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:20:43,720 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:20:44,490 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:20:44,490 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:20:45,240 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:20:45,240 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:20:46,036 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:20:46,036 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:20:46,780 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:20:46,780 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:20:47,575 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:20:47,575 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:20:48,239 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:20:48,239 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:20:49,029 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:20:49,029 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:20:49,669 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:20:49,669 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:20:50,331 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:20:50,331 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:20:51,046 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:20:51,046 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:20:51,768 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:20:51,768 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:20:52,571 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:20:52,571 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:20:53,387 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:20:53,387 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:20:54,228 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:20:54,228 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:20:54,926 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:20:54,926 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:20:55,600 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:20:55,600 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:20:56,439 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:20:56,439 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:20:56,540 INFO main_logger: 郵件發送成功，Message ID: 62ac6797-d961-5754-a41f-38032dd971c7
+2024-10-25 01:20:56,540 INFO main_logger: 郵件發送成功，Message ID: 62ac6797-d961-5754-a41f-38032dd971c7
+2024-10-25 01:20:56,540 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:20:56,540 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:20:56,540 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:20:56,540 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:20:56,541 INFO main_logger: 應用程序結束
+2024-10-25 01:20:56,541 INFO main_logger: 應用程序結束
+2024-10-25 01:21:20,740 INFO main_logger: 應用程序啟動
+2024-10-25 01:21:20,740 INFO main_logger: 應用程序啟動
+2024-10-25 01:21:20,811 INFO main_logger: Redis 連線成功！
+2024-10-25 01:21:20,811 INFO main_logger: Redis 連線成功！
+2024-10-25 01:21:20,861 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:21:20,861 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:21:20,941 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:21:20,941 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:21:20,942 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:21:20,942 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:21:20,942 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:21:20,942 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:21:22,459 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:21:22,459 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:21:23,201 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:21:23,201 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:21:24,024 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:21:24,024 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:21:24,800 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:21:24,800 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:21:24,807 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:24,807 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:24,845 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819284, 1)}
+2024-10-25 01:21:24,845 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819284, 1)}
+2024-10-25 01:21:24,845 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:21:24,845 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:21:24,863 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819284, 1)}
+2024-10-25 01:21:24,863 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819284, 1)}
+2024-10-25 01:21:24,863 INFO main_logger: 插入新房屋編號 1543PZ 至 DocumentDB
+2024-10-25 01:21:24,863 INFO main_logger: 插入新房屋編號 1543PZ 至 DocumentDB
+2024-10-25 01:21:25,659 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:21:25,659 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:21:26,375 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:21:26,375 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:21:27,127 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:21:27,127 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:21:27,447 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819287, 1)}
+2024-10-25 01:21:27,447 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819287, 1)}
+2024-10-25 01:21:27,448 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:21:27,448 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:21:27,975 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819287, 1)}
+2024-10-25 01:21:27,975 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819287, 1)}
+2024-10-25 01:21:27,975 INFO main_logger: 插入新房屋編號 5084TH 至 DocumentDB
+2024-10-25 01:21:27,975 INFO main_logger: 插入新房屋編號 5084TH 至 DocumentDB
+2024-10-25 01:21:28,952 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:21:28,952 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:21:29,763 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:21:29,763 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:21:29,767 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:29,767 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:29,807 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819288, 1)}
+2024-10-25 01:21:29,807 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819288, 1)}
+2024-10-25 01:21:29,807 INFO main_logger: 房屋編號 1809RG 新增到 SNS 隊列
+2024-10-25 01:21:29,807 INFO main_logger: 房屋編號 1809RG 新增到 SNS 隊列
+2024-10-25 01:21:29,973 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819289, 1)}
+2024-10-25 01:21:29,973 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819289, 1)}
+2024-10-25 01:21:29,973 INFO main_logger: 插入新房屋編號 1809RG 至 DocumentDB
+2024-10-25 01:21:29,973 INFO main_logger: 插入新房屋編號 1809RG 至 DocumentDB
+2024-10-25 01:21:30,950 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:21:30,950 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:21:30,953 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:30,953 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:30,986 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819289, 1)}
+2024-10-25 01:21:30,986 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819289, 1)}
+2024-10-25 01:21:30,986 INFO main_logger: 房屋編號 9897SJ 新增到 SNS 隊列
+2024-10-25 01:21:30,986 INFO main_logger: 房屋編號 9897SJ 新增到 SNS 隊列
+2024-10-25 01:21:31,463 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819291, 1)}
+2024-10-25 01:21:31,463 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819291, 1)}
+2024-10-25 01:21:31,463 INFO main_logger: 插入新房屋編號 9897SJ 至 DocumentDB
+2024-10-25 01:21:31,463 INFO main_logger: 插入新房屋編號 9897SJ 至 DocumentDB
+2024-10-25 01:21:32,363 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:21:32,363 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:21:33,178 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:21:33,178 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:21:33,186 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:33,186 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:33,212 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819291, 1)}
+2024-10-25 01:21:33,212 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819291, 1)}
+2024-10-25 01:21:33,212 INFO main_logger: 房屋編號 5252YT 新增到 SNS 隊列
+2024-10-25 01:21:33,212 INFO main_logger: 房屋編號 5252YT 新增到 SNS 隊列
+2024-10-25 01:21:33,471 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819293, 1)}
+2024-10-25 01:21:33,471 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819293, 1)}
+2024-10-25 01:21:33,471 INFO main_logger: 插入新房屋編號 5252YT 至 DocumentDB
+2024-10-25 01:21:33,471 INFO main_logger: 插入新房屋編號 5252YT 至 DocumentDB
+2024-10-25 01:21:34,193 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:21:34,193 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:21:34,197 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:34,197 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:34,226 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819293, 1)}
+2024-10-25 01:21:34,226 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819293, 1)}
+2024-10-25 01:21:34,226 INFO main_logger: 房屋編號 7360DQ 新增到 SNS 隊列
+2024-10-25 01:21:34,226 INFO main_logger: 房屋編號 7360DQ 新增到 SNS 隊列
+2024-10-25 01:21:34,482 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819294, 1)}
+2024-10-25 01:21:34,482 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819294, 1)}
+2024-10-25 01:21:34,482 INFO main_logger: 插入新房屋編號 7360DQ 至 DocumentDB
+2024-10-25 01:21:34,482 INFO main_logger: 插入新房屋編號 7360DQ 至 DocumentDB
+2024-10-25 01:21:35,180 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:21:35,180 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:21:35,184 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:35,184 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:35,227 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819293, 1)}
+2024-10-25 01:21:35,227 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819293, 1)}
+2024-10-25 01:21:35,228 INFO main_logger: 房屋編號 4040DV 新增到 SNS 隊列
+2024-10-25 01:21:35,228 INFO main_logger: 房屋編號 4040DV 新增到 SNS 隊列
+2024-10-25 01:21:35,482 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819295, 1)}
+2024-10-25 01:21:35,482 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819295, 1)}
+2024-10-25 01:21:35,482 INFO main_logger: 插入新房屋編號 4040DV 至 DocumentDB
+2024-10-25 01:21:35,482 INFO main_logger: 插入新房屋編號 4040DV 至 DocumentDB
+2024-10-25 01:21:36,325 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:21:36,325 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:21:36,330 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:36,330 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:36,359 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819295, 1)}
+2024-10-25 01:21:36,359 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819295, 1)}
+2024-10-25 01:21:36,359 INFO main_logger: 房屋編號 0016TU 新增到 SNS 隊列
+2024-10-25 01:21:36,359 INFO main_logger: 房屋編號 0016TU 新增到 SNS 隊列
+2024-10-25 01:21:36,483 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819296, 1)}
+2024-10-25 01:21:36,483 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819296, 1)}
+2024-10-25 01:21:36,483 INFO main_logger: 插入新房屋編號 0016TU 至 DocumentDB
+2024-10-25 01:21:36,483 INFO main_logger: 插入新房屋編號 0016TU 至 DocumentDB
+2024-10-25 01:21:37,145 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:21:37,145 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:21:37,149 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:37,149 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:21:37,180 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819296, 1)}
+2024-10-25 01:21:37,180 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819296, 1)}
+2024-10-25 01:21:37,181 INFO main_logger: 房屋編號 1442MN 新增到 SNS 隊列
+2024-10-25 01:21:37,181 INFO main_logger: 房屋編號 1442MN 新增到 SNS 隊列
+2024-10-25 01:21:37,496 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819297, 1)}
+2024-10-25 01:21:37,496 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819297, 1)}
+2024-10-25 01:21:37,497 INFO main_logger: 插入新房屋編號 1442MN 至 DocumentDB
+2024-10-25 01:21:37,497 INFO main_logger: 插入新房屋編號 1442MN 至 DocumentDB
+2024-10-25 01:21:38,269 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:21:38,269 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:21:39,011 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:21:39,011 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:21:39,694 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:21:39,694 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:21:40,494 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:21:40,494 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:21:40,525 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819299, 1)}
+2024-10-25 01:21:40,525 ERROR main_logger: MongoDB 查詢錯誤: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819299, 1)}
+2024-10-25 01:21:40,526 INFO main_logger: 房屋編號 0463CC 新增到 SNS 隊列
+2024-10-25 01:21:40,526 INFO main_logger: 房屋編號 0463CC 新增到 SNS 隊列
+2024-10-25 01:21:40,987 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819300, 1)}
+2024-10-25 01:21:40,987 ERROR main_logger: 插入文檔時出錯: Authentication failed., full error: {'ok': 0, 'errmsg': 'Authentication failed.', 'code': 18, 'operationTime': Timestamp(1729819300, 1)}
+2024-10-25 01:21:40,988 INFO main_logger: 插入新房屋編號 0463CC 至 DocumentDB
+2024-10-25 01:21:40,988 INFO main_logger: 插入新房屋編號 0463CC 至 DocumentDB
+2024-10-25 01:21:41,713 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:21:41,713 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:21:42,436 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:21:42,436 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:21:43,150 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:21:43,150 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:21:43,849 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:21:43,849 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:21:44,974 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:21:44,974 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:21:45,643 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:21:45,643 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:21:46,407 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:21:46,407 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:21:47,280 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:21:47,280 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:21:48,108 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:21:48,108 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:21:49,122 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:21:49,122 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:21:49,909 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:21:49,909 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:21:50,856 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:21:50,856 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:21:51,672 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:21:51,672 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:21:52,467 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:21:52,467 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:21:53,583 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:21:53,583 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:21:54,458 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:21:54,458 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:21:55,128 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:21:55,128 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:21:55,871 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:21:55,871 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:21:56,595 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:21:56,595 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:21:57,561 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:21:57,561 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:21:58,329 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:21:58,329 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:21:59,106 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:21:59,106 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:21:59,802 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:21:59,802 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:22:00,506 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:22:00,506 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:22:01,210 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:22:01,210 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:22:01,320 INFO main_logger: 郵件發送成功，Message ID: 1b46f10f-c1b8-55d9-bacf-ae9b35413c37
+2024-10-25 01:22:01,320 INFO main_logger: 郵件發送成功，Message ID: 1b46f10f-c1b8-55d9-bacf-ae9b35413c37
+2024-10-25 01:22:01,321 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:22:01,321 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:22:01,321 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:22:01,321 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:22:01,322 INFO main_logger: 應用程序結束
+2024-10-25 01:22:01,322 INFO main_logger: 應用程序結束
+2024-10-25 01:39:27,386 INFO main_logger: 應用程序啟動
+2024-10-25 01:39:27,386 INFO main_logger: 應用程序啟動
+2024-10-25 01:39:27,456 INFO main_logger: Redis 連線成功！
+2024-10-25 01:39:27,456 INFO main_logger: Redis 連線成功！
+2024-10-25 01:39:27,505 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:39:27,505 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:39:27,587 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:39:27,587 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:39:27,587 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:39:27,587 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:39:27,588 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:39:27,588 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:39:29,243 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:39:29,243 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:39:30,012 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:39:30,012 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:39:30,704 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:39:30,704 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:39:31,411 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:39:31,411 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:39:31,416 ERROR main_logger: 取得 Key 1543PZ 所在節點時出錯: 'dict' object has no attribute 'split'
+2024-10-25 01:39:31,416 ERROR main_logger: 取得 Key 1543PZ 所在節點時出錯: 'dict' object has no attribute 'split'
+2024-10-25 01:39:31,419 ERROR main_logger: Error writing to Redis: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:39:31,419 ERROR main_logger: Error writing to Redis: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:40:01,710 ERROR main_logger: MongoDB 查詢錯誤: none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 671af6cf74c78680df564b93, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('none', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-25 01:40:01,710 ERROR main_logger: MongoDB 查詢錯誤: none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 671af6cf74c78680df564b93, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('none', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-25 01:40:01,710 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:40:01,710 INFO main_logger: 房屋編號 1543PZ 新增到 SNS 隊列
+2024-10-25 01:40:31,909 ERROR main_logger: 插入文檔時出錯: none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 671af6cf74c78680df564b93, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('none', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-25 01:40:31,909 ERROR main_logger: 插入文檔時出錯: none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 671af6cf74c78680df564b93, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('none', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-25 01:40:31,909 INFO main_logger: 插入新房屋編號 1543PZ 至 DocumentDB
+2024-10-25 01:40:31,909 INFO main_logger: 插入新房屋編號 1543PZ 至 DocumentDB
+2024-10-25 01:40:32,668 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:40:32,668 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:40:33,380 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:40:33,380 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:40:34,077 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:40:34,077 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:40:34,082 ERROR main_logger: 取得 Key 5084TH 所在節點時出錯: 'dict' object has no attribute 'split'
+2024-10-25 01:40:34,082 ERROR main_logger: 取得 Key 5084TH 所在節點時出錯: 'dict' object has no attribute 'split'
+2024-10-25 01:41:04,091 ERROR main_logger: MongoDB 查詢錯誤: none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 671af6cf74c78680df564b93, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('none', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-25 01:41:04,091 ERROR main_logger: MongoDB 查詢錯誤: none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 671af6cf74c78680df564b93, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('none', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('none:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-25 01:41:04,091 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:41:04,091 INFO main_logger: 房屋編號 5084TH 新增到 SNS 隊列
+2024-10-25 01:41:19,127 INFO main_logger: 應用程序結束
+2024-10-25 01:41:19,127 INFO main_logger: 應用程序結束
+2024-10-25 01:49:12,073 INFO main_logger: 應用程序啟動
+2024-10-25 01:49:12,073 INFO main_logger: 應用程序啟動
+2024-10-25 01:49:12,136 INFO main_logger: Redis 連線成功！
+2024-10-25 01:49:12,136 INFO main_logger: Redis 連線成功！
+2024-10-25 01:49:12,185 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:49:12,185 INFO main_logger: MongoDB 連接成功
+2024-10-25 01:49:12,267 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:49:12,267 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 01:49:12,267 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:49:12,267 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 01:49:12,267 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:49:12,267 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 01:49:14,004 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:49:14,004 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 01:49:15,119 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:49:15,119 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 01:49:15,940 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:49:15,940 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 01:49:16,632 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:49:16,632 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 01:49:16,639 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:16,639 ERROR main_logger: Redis 設置錯誤: MOVED 2680 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:17,869 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:49:17,869 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 01:49:18,699 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:49:18,699 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 01:49:19,555 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:49:19,555 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 01:49:20,682 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:49:20,682 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 01:49:21,420 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:49:21,420 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 01:49:21,425 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:21,425 ERROR main_logger: Redis 設置錯誤: MOVED 972 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:22,463 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:49:22,463 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 01:49:22,466 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:22,466 ERROR main_logger: Redis 設置錯誤: MOVED 1124 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:23,409 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:49:23,409 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 01:49:24,385 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:49:24,385 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 01:49:24,390 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:24,390 ERROR main_logger: Redis 設置錯誤: MOVED 12767 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:25,423 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:49:25,423 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 01:49:25,429 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:25,429 ERROR main_logger: Redis 設置錯誤: MOVED 248 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:26,248 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:49:26,248 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 01:49:26,251 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:26,251 ERROR main_logger: Redis 設置錯誤: MOVED 15685 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:27,280 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:49:27,280 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 01:49:27,288 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:27,288 ERROR main_logger: Redis 設置錯誤: MOVED 1553 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:28,068 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:49:28,068 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 01:49:28,076 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:28,076 ERROR main_logger: Redis 設置錯誤: MOVED 12419 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 01:49:28,890 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:49:28,890 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 01:49:29,748 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:49:29,748 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 01:49:30,435 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:49:30,435 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 01:49:31,590 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:49:31,590 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 01:49:32,715 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:49:32,715 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 01:49:33,462 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:49:33,462 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 01:49:34,235 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:49:34,235 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 01:49:35,361 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:49:35,361 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 01:49:36,401 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:49:36,401 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 01:49:37,191 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:49:37,191 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 01:49:38,211 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:49:38,211 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 01:49:39,177 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:49:39,177 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 01:49:40,438 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:49:40,438 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 01:49:41,168 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:49:41,168 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 01:49:42,436 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:49:42,436 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 01:49:43,286 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:49:43,286 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 01:49:44,120 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:49:44,120 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 01:49:44,814 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:49:44,814 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 01:49:45,680 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:49:45,680 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 01:49:46,773 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:49:46,773 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 01:49:47,680 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:49:47,680 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 01:49:48,551 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:49:48,551 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 01:49:49,275 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:49:49,275 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 01:49:50,284 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:49:50,284 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 01:49:51,061 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:49:51,061 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 01:49:52,033 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:49:52,033 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 01:49:52,768 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:49:52,768 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 01:49:53,469 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:49:53,469 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 01:49:54,356 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:49:54,356 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 01:49:54,454 INFO main_logger: 郵件發送成功，Message ID: a49a265e-237f-53ba-98fc-79cad8fd6e48
+2024-10-25 01:49:54,454 INFO main_logger: 郵件發送成功，Message ID: a49a265e-237f-53ba-98fc-79cad8fd6e48
+2024-10-25 01:49:54,454 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:49:54,454 INFO main_logger: SNS 郵件發送完成
+2024-10-25 01:49:54,469 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:49:54,469 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 01:49:54,470 INFO main_logger: 應用程序結束
+2024-10-25 01:49:54,470 INFO main_logger: 應用程序結束
+2024-10-25 02:17:35,101 INFO main_logger: 應用程序啟動
+2024-10-25 02:17:35,101 INFO main_logger: 應用程序啟動
+2024-10-25 02:17:35,161 INFO main_logger: 連接到 Redis 節點 clustercfg.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:35,161 INFO main_logger: 連接到 Redis 節點 clustercfg.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:35,211 INFO main_logger: MongoDB 連接成功
+2024-10-25 02:17:35,211 INFO main_logger: MongoDB 連接成功
+2024-10-25 02:17:35,292 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 02:17:35,292 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 02:17:35,292 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 02:17:35,292 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 02:17:35,293 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 02:17:35,293 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/05-mrt/publish-desc
+2024-10-25 02:17:37,232 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 02:17:37,232 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 02:17:38,021 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 02:17:38,021 INFO main_logger: 處理房屋編號: 5990ML
+2024-10-25 02:17:38,889 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 02:17:38,889 INFO main_logger: 處理房屋編號: 2877GK
+2024-10-25 02:17:39,694 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 02:17:39,694 INFO main_logger: 處理房屋編號: 1543PZ
+2024-10-25 02:17:39,700 INFO main_logger: 處理 MOVED 錯誤，鍵槽 2680 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:39,700 INFO main_logger: 處理 MOVED 錯誤，鍵槽 2680 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:39,754 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:39,754 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:39,755 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:39,755 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:40,730 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 02:17:40,730 INFO main_logger: 處理房屋編號: 9643XM
+2024-10-25 02:17:41,434 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 02:17:41,434 INFO main_logger: 處理房屋編號: 8826FX
+2024-10-25 02:17:42,098 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 02:17:42,098 INFO main_logger: 處理房屋編號: 5084TH
+2024-10-25 02:17:42,103 INFO main_logger: 處理 MOVED 錯誤，鍵槽 7067 移動到 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:42,103 INFO main_logger: 處理 MOVED 錯誤，鍵槽 7067 移動到 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:42,176 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:42,176 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:42,176 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:42,176 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:43,249 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 02:17:43,249 INFO main_logger: 處理房屋編號: 5739RV
+2024-10-25 02:17:44,181 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 02:17:44,181 INFO main_logger: 處理房屋編號: 1809RG
+2024-10-25 02:17:44,185 INFO main_logger: 處理 MOVED 錯誤，鍵槽 972 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:44,185 INFO main_logger: 處理 MOVED 錯誤，鍵槽 972 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:44,241 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:44,241 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:44,241 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:44,241 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:45,109 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 02:17:45,109 INFO main_logger: 處理房屋編號: 9897SJ
+2024-10-25 02:17:46,044 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 02:17:46,044 INFO main_logger: 處理房屋編號: 1623TU
+2024-10-25 02:17:46,926 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 02:17:46,926 INFO main_logger: 處理房屋編號: 5252YT
+2024-10-25 02:17:46,932 INFO main_logger: 處理 MOVED 錯誤，鍵槽 12767 移動到 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:46,932 INFO main_logger: 處理 MOVED 錯誤，鍵槽 12767 移動到 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:47,012 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:47,012 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:47,012 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:47,012 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:47,950 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 02:17:47,950 INFO main_logger: 處理房屋編號: 7360DQ
+2024-10-25 02:17:47,954 INFO main_logger: 處理 MOVED 錯誤，鍵槽 248 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:47,954 INFO main_logger: 處理 MOVED 錯誤，鍵槽 248 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:48,022 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:48,022 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:48,023 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:48,023 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:48,809 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 02:17:48,809 INFO main_logger: 處理房屋編號: 4040DV
+2024-10-25 02:17:48,813 INFO main_logger: 處理 MOVED 錯誤，鍵槽 15685 移動到 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:48,813 INFO main_logger: 處理 MOVED 錯誤，鍵槽 15685 移動到 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:48,864 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:48,864 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:48,865 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:48,865 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:49,797 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 02:17:49,797 INFO main_logger: 處理房屋編號: 0016TU
+2024-10-25 02:17:49,802 INFO main_logger: 處理 MOVED 錯誤，鍵槽 1553 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:49,802 INFO main_logger: 處理 MOVED 錯誤，鍵槽 1553 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:49,863 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:49,863 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:49,863 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:49,863 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:50,688 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 02:17:50,688 INFO main_logger: 處理房屋編號: 1442MN
+2024-10-25 02:17:50,692 INFO main_logger: 處理 MOVED 錯誤，鍵槽 12419 移動到 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:50,692 INFO main_logger: 處理 MOVED 錯誤，鍵槽 12419 移動到 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:50,754 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:50,754 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:50,754 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:50,754 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0003-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:51,496 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 02:17:51,496 INFO main_logger: 處理房屋編號: 8541XK
+2024-10-25 02:17:52,449 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 02:17:52,449 INFO main_logger: 處理房屋編號: 6324LG
+2024-10-25 02:17:53,222 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 02:17:53,222 INFO main_logger: 處理房屋編號: 1751HN
+2024-10-25 02:17:53,998 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 02:17:53,998 INFO main_logger: 處理房屋編號: 0463CC
+2024-10-25 02:17:54,001 INFO main_logger: 處理 MOVED 錯誤，鍵槽 7641 移動到 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:54,001 INFO main_logger: 處理 MOVED 錯誤，鍵槽 7641 移動到 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:54,056 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:54,056 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:17:54,057 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:54,057 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:17:54,976 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 02:17:54,976 INFO main_logger: 處理房屋編號: 6178XF
+2024-10-25 02:17:55,658 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 02:17:55,658 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 02:17:56,403 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 02:17:56,403 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 02:17:57,152 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 02:17:57,152 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 02:17:58,118 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 02:17:58,118 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 02:17:59,053 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 02:17:59,053 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 02:17:59,786 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 02:17:59,786 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 02:18:00,818 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 02:18:00,818 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 02:18:01,581 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 02:18:01,581 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 02:18:02,806 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 02:18:02,806 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 02:18:03,515 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 02:18:03,515 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 02:18:04,289 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 02:18:04,289 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 02:18:05,068 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 02:18:05,068 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 02:18:05,875 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 02:18:05,875 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 02:18:06,596 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 02:18:06,596 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 02:18:07,363 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 02:18:07,363 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 02:18:08,212 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 02:18:08,212 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 02:18:09,091 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 02:18:09,091 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 02:18:10,077 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 02:18:10,077 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 02:18:10,983 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 02:18:10,983 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 02:18:11,961 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 02:18:11,961 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 02:18:12,889 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 02:18:12,889 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 02:18:13,694 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 02:18:13,694 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 02:18:14,540 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 02:18:14,540 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 02:18:15,367 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 02:18:15,367 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 02:18:15,498 INFO main_logger: 郵件發送成功，Message ID: c8dca8f9-7e0c-5618-9102-f76c7c2bcf96
+2024-10-25 02:18:15,498 INFO main_logger: 郵件發送成功，Message ID: c8dca8f9-7e0c-5618-9102-f76c7c2bcf96
+2024-10-25 02:18:15,499 INFO main_logger: SNS 郵件發送完成
+2024-10-25 02:18:15,499 INFO main_logger: SNS 郵件發送完成
+2024-10-25 02:18:15,518 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 02:18:15,518 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 02:18:15,518 INFO main_logger: 應用程序結束
+2024-10-25 02:18:15,518 INFO main_logger: 應用程序結束
+2024-10-25 02:23:51,590 INFO main_logger: 應用程序啟動
+2024-10-25 02:23:51,652 INFO main_logger: 連接到 Redis 節點 clustercfg.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:23:51,701 INFO main_logger: MongoDB 連接成功
+2024-10-25 02:23:51,788 INFO main_logger: SNS 客戶端初始化成功
+2024-10-25 02:23:51,788 INFO main_logger: 生成的 URL 數量: 1
+2024-10-25 02:23:51,788 INFO main_logger: 處理 URL: https://www.sinyi.com.tw/buy/mrt/800-3000-price/Taipei-O-mrtline/19-mrt/publish-desc
+2024-10-25 02:23:53,427 INFO main_logger: 唯一的房屋編號數量: 44
+2024-10-25 02:23:54,159 INFO main_logger: 處理房屋編號: 1905YK
+2024-10-25 02:23:54,846 INFO main_logger: 處理房屋編號: 4620NU
+2024-10-25 02:23:54,851 INFO main_logger: 處理 MOVED 錯誤，鍵槽 2289 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:23:54,910 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:23:54,910 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:23:54,940 INFO main_logger: 房屋編號 4620NU 新增到 SNS 隊列
+2024-10-25 02:23:55,823 INFO main_logger: 處理房屋編號: 9274GV
+2024-10-25 02:23:56,812 INFO main_logger: 處理房屋編號: 0971MP
+2024-10-25 02:23:57,629 INFO main_logger: 處理房屋編號: 4215BB
+2024-10-25 02:23:58,623 INFO main_logger: 處理房屋編號: 5749HK
+2024-10-25 02:23:59,490 INFO main_logger: 處理房屋編號: 7546HN
+2024-10-25 02:24:00,195 INFO main_logger: 處理房屋編號: 6410QB
+2024-10-25 02:24:00,848 INFO main_logger: 處理房屋編號: 3094MV
+2024-10-25 02:24:01,720 INFO main_logger: 處理房屋編號: 9376QL
+2024-10-25 02:24:02,436 INFO main_logger: 處理房屋編號: 1050FB
+2024-10-25 02:24:03,136 INFO main_logger: 處理房屋編號: 2047ML
+2024-10-25 02:24:03,935 INFO main_logger: 處理房屋編號: 1336GU
+2024-10-25 02:24:03,943 INFO main_logger: 處理 MOVED 錯誤，鍵槽 5675 移動到 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:24:04,023 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:24:04,023 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0002-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:24:04,030 INFO main_logger: 房屋編號 1336GU 新增到 SNS 隊列
+2024-10-25 02:24:04,832 INFO main_logger: 處理房屋編號: 0524UQ
+2024-10-25 02:24:05,519 INFO main_logger: 處理房屋編號: 4165PZ
+2024-10-25 02:24:06,248 INFO main_logger: 處理房屋編號: 7354SX
+2024-10-25 02:24:07,058 INFO main_logger: 處理房屋編號: 1306SC
+2024-10-25 02:24:08,070 INFO main_logger: 處理房屋編號: 2060VQ
+2024-10-25 02:24:08,073 INFO main_logger: 處理 MOVED 錯誤，鍵槽 2106 移動到 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:24:08,131 INFO main_logger: 連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379 成功
+2024-10-25 02:24:08,131 INFO main_logger: 成功連接到 Redis 節點 crawlerdbenable-0001-001.crawlerdbenable.m0szxl.apne1.cache.amazonaws.com:6379
+2024-10-25 02:24:08,139 INFO main_logger: 房屋編號 2060VQ 新增到 SNS 隊列
+2024-10-25 02:24:08,870 INFO main_logger: 處理房屋編號: 6000SH
+2024-10-25 02:24:09,682 INFO main_logger: 處理房屋編號: 4953YM
+2024-10-25 02:24:10,419 INFO main_logger: 處理房屋編號: 7147QR
+2024-10-25 02:24:11,175 INFO main_logger: 處理房屋編號: 3118VK
+2024-10-25 02:24:12,094 INFO main_logger: 處理房屋編號: 0753LB
+2024-10-25 02:24:13,014 INFO main_logger: 處理房屋編號: 1336HL
+2024-10-25 02:24:13,714 INFO main_logger: 處理房屋編號: 1780BS
+2024-10-25 02:24:14,437 INFO main_logger: 處理房屋編號: 2664DD
+2024-10-25 02:24:15,273 INFO main_logger: 處理房屋編號: 8275RQ
+2024-10-25 02:24:16,221 INFO main_logger: 處理房屋編號: 20233P
+2024-10-25 02:24:16,988 INFO main_logger: 處理房屋編號: 8037AT
+2024-10-25 02:24:17,736 INFO main_logger: 處理房屋編號: 0263TS
+2024-10-25 02:24:18,485 INFO main_logger: 處理房屋編號: 1579AP
+2024-10-25 02:24:19,509 INFO main_logger: 處理房屋編號: 7096UW
+2024-10-25 02:24:20,394 INFO main_logger: 處理房屋編號: 2415QQ
+2024-10-25 02:24:21,087 INFO main_logger: 處理房屋編號: 8645JF
+2024-10-25 02:24:22,092 INFO main_logger: 處理房屋編號: 8559YX
+2024-10-25 02:24:22,792 INFO main_logger: 處理房屋編號: 5645GQ
+2024-10-25 02:24:23,476 INFO main_logger: 處理房屋編號: 1100GK
+2024-10-25 02:24:24,227 INFO main_logger: 處理房屋編號: 7621RW
+2024-10-25 02:24:25,243 INFO main_logger: 處理房屋編號: 0032KF
+2024-10-25 02:24:26,074 INFO main_logger: 處理房屋編號: 6834FW
+2024-10-25 02:24:27,143 INFO main_logger: 處理房屋編號: 6532JH
+2024-10-25 02:24:27,896 INFO main_logger: 處理房屋編號: 9853UD
+2024-10-25 02:24:28,736 INFO main_logger: 處理房屋編號: 8338LK
+2024-10-25 02:24:29,462 INFO main_logger: 處理房屋編號: 3573RK
+2024-10-25 02:24:29,557 INFO main_logger: 郵件發送成功，Message ID: 8c4843ff-fcde-5c2c-8a1f-1c6aff438bd8
+2024-10-25 02:24:29,558 INFO main_logger: SNS 郵件發送完成
+2024-10-25 02:24:29,589 INFO main_logger: MongoDB 連接已關閉
+2024-10-25 02:24:29,589 INFO main_logger: 應用程序結束

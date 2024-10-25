@@ -1,5 +1,5 @@
 beautifulsoup4
 boto3
-dotenv
+python-dotenv
 pymongo
 redis
