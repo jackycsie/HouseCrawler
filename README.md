@@ -91,11 +91,26 @@ source venv/bin/activate  # Linux/macOS
 pip install -r requirements.txt
 ```
 
-### 4. 確保虛擬環境已啟動，然後運行主程序：
+### 3. 建立 .env 檔案
+```
+MONGO_USER=
+MONGO_PASS=
+REDIS_HOST=
+REDIS_PORT=6379
+REDIS_SSL_CONNECTION=True
+REDIS_DB_INSTANCE=0
+AWS_REGION=a
+SNS_TOPIC_ARN=
+LOG_FILE=logs/application.log
+```
+
+
+
+### 5. 確保虛擬環境已啟動，然後運行主程序：
 
 ```
 python main.py
 ```
 
-### 5. 日誌檔案
+### 6. 日誌檔案
 應用程序的運行情況將被記錄在 logs/main.log 文件中。請定期檢查日誌以監控應用程序狀態。
